@@ -1,0 +1,65 @@
+/* inspired by https://css-tricks.com/dont-overthink-it-grids/ */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 480px;
+    margin: 0 auto;
+}
+
+.top-half {
+    width: 100%;
+    margin: 0 auto;
+}
+
+[class*='col-'] {
+    float: left;
+    border: 1px solid black;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 32px;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.height75 {
+    height: 75x;
+    line-height: 75px;
+}
+
+.height150 {
+    height: 150px;
+    line-height: 150px;
+}
+
+.height125{
+    height: 125px;
+    line-height: 125px;
+}
+
+.height250{
+    height: 250px;
+    line-height: 250px;
+}
+
+.float-right {
+    float: right;
+}
+
+p {
+    font-size: 24px;
+}
+
+@media (min-width:768px) {
+    [class*='col-'] {
+        background-color: goldenrod;
+    }
+}
