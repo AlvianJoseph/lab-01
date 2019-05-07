@@ -58,8 +58,41 @@ p {
     font-size: 24px;
 }
 
-@media (min-width:768px) {
+@media (min-width:960px) {
     [class*='col-'] {
-        background-color: goldenrod;
+        background-color: lightblue;
+    }
+
+    body{
+        width: 960px;
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+
+    #a{
+        height: 100px;
+    }
+
+    #b{
+        float: left;
+        width: 200px;
+        height: 600px;
+    }
+
+    #cd {
+        width: 380px;
+        height: 200px;
+        float: left;
+    }
+
+    #efgh{
+        width: 190px;
+        height: 250px;
+    }
+    
+    #i{
+        float: right;
+        height: 150px;
+        width: 760px;
     }
 }
