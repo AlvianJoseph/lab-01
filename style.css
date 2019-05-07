@@ -24,30 +24,36 @@ body{
 
 .col-100{
     width: 100%;
+    background-color: lightblue;
 }
 
 .col-50 {
     width: 50%;
+    background-color: black;
 }
 
 .height75 {
     height: 75x;
     line-height: 75px;
+    background-color: bisque;
 }
 
 .height150 {
     height: 150px;
     line-height: 150px;
+    background-color: goldenrod;
 }
 
 .height125{
     height: 125px;
     line-height: 125px;
+    background-color: blue;
 }
 
 .height250{
     height: 250px;
     line-height: 250px;
+    background-color: red;
 }
 
 p {
@@ -62,33 +68,39 @@ p {
     body{
         width: 960px;
         margin: 0 auto;
-        padding-top: 100px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     #a{
         height: 100px;
+        background-color: lightblue;
     }
 
     #b{
         float: left;
         width: 200px;
         height: 600px;
+        background-color: orange;
     }
 
     #cd {
         width: 380px;
         height: 200px;
         float: left;
+        background-color: purple;
     }
 
     #efgh{
         width: 190px;
         height: 250px;
+        background-color: mediumseagreen;
     }
     
     #i{
         float: right;
         height: 150px;
         width: 760px;
+        background-color: ghostwhite;
     }
 }
